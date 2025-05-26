@@ -1,0 +1,32 @@
+body {
+  background-color: #f8f9fa;
+  padding: 20px;
+  background-color: #dcf1f9;
+  
+}
+.container{
+  max-width: 800px;
+}
+.text-center{
+  color: rgb(249, 70, 160);
+}
+.task-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+  color: green;
+}
+
+.task-date {
+  font-size: 0.85em;
+  color: #292828;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+}
